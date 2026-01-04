@@ -1,0 +1,32 @@
+{
+    "skills": [
+        {
+            "category": "Frontend",
+            "list": [
+                "React",
+                "Tailwind CSS",
+                "daisyUI",
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ]
+        },
+        {
+            "category": "Backend",
+            "list": [
+                "Node.js",
+                "Express",
+                "MongoDB"
+            ]
+        },
+        {
+            "category": "Tools & Others",
+            "list": [
+                "Git",
+                "Postman",
+                "VSCode",
+                "Figma"
+            ]
+        }
+    ]
+}

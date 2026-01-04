@@ -1,0 +1,22 @@
+{
+    "education": [
+        {
+            "degree": "Bachelor of Science in Electrical and Electronic Engineering",
+            "institution": "Bangladesh University of Engineering and Technology",
+            "year": "2021",
+            "description": "Focused on power systems, automation, and control system concepts."
+        }
+    ],
+    "experience": [
+        {
+            "role": "Assistant Engineer (Electrical)",
+            "organization": "Coal Power Generation Company Bangladesh Limited",
+            "duration": "March, 2023 — Present",
+            "responsibilities": [
+                "Worked with DCS and PLC-based systems",
+                "Modified control logic and HMI for operational improvements",
+                "Collaborated with operations and maintenance teams"
+            ]
+        }
+    ]
+}

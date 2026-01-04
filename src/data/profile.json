@@ -1,0 +1,29 @@
+{
+  "name": "Tanzir Ahmed Sami",
+  "primaryDesignation": "Web Developer",
+  "secondaryDesignation": "Electrical and Automation Engineer",
+  "heroIntro": "I build clean, responsive, and user-focused full stack web applications with a strong engineering mindset.",
+  "profileImage": "/images/profile.jpg",
+  "resumeLink": "/resume/Tanzir_Ahmed_Sami_Resume.pdf",
+  "about": {
+    "paragraphs": [
+      "My programming journey began from an engineering background, where I worked closely with industrial systems, automation, and real-world problem solving. Over time, I became deeply interested in building software systems that are not only functional but also intuitive and user-friendly.",
+      "I currently focus on web development using modern technologies, especially the MERN stack. I enjoy turning ideas into responsive interfaces, structuring data-driven applications, and improving user experience through clean design and logical workflows.",
+      "Outside of programming, I enjoy competitive gaming, learning new technologies, and experimenting with system-level tools. These interests help me stay curious, analytical, and constantly motivated to improve."
+    ]
+  },
+  "socialLinks": [
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/sami157"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/tanzir-ahmed-sami/"
+    },
+    {
+      "platform": "Facebook",
+      "url": "https://facebook.com/tanzirahmeds1"
+    }
+  ]
+}

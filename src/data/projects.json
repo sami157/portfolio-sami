@@ -1,0 +1,83 @@
+{
+    "projects": [
+        {
+            "id": "coal-yard-management",
+            "name": "Coal Yard Management System",
+            "thumbnail": "/images/projects/coal-yard.png",
+            "shortDescription": "A system to monitor coal movement, consumption, and operational data in real time.",
+            "techStack": [
+                "React",
+                "Node.js",
+                "Express",
+                "MongoDB"
+            ],
+            "liveLink": "",
+            "githubClient": "",
+            "details": {
+                "description": "A complete coal yard management system developed from concept to deployment. The system helps operators track coal flow, maintain records, and monitor daily consumption efficiently.",
+                "challenges": [
+                    "Understanding real-world operational workflows",
+                    "Designing a data model that matches physical coal movement",
+                    "Ensuring reliability for daily operational use"
+                ],
+                "futurePlans": [
+                    "Advanced reporting and analytics",
+                    "Role-based access control",
+                    "Improved visualization dashboards"
+                ]
+            }
+        },
+        {
+            "id": "user-dashboard-app",
+            "name": "User Dashboard Application",
+            "thumbnail": "/images/projects/dashboard.png",
+            "shortDescription": "A responsive dashboard with charts, profile management, and protected routes.",
+            "techStack": [
+                "React",
+                "Tailwind CSS",
+                "React Query"
+            ],
+            "liveLink": "",
+            "githubClient": "",
+            "details": {
+                "description": "A modern dashboard application featuring authentication, user profiles, and visual data representation using charts.",
+                "challenges": [
+                    "State management across components",
+                    "Making charts fully responsive",
+                    "Handling protected routes securely"
+                ],
+                "futurePlans": [
+                    "Dark/light theme toggle",
+                    "More advanced analytics",
+                    "Improved accessibility"
+                ]
+            }
+        },
+        {
+            "id": "portfolio-website",
+            "name": "Personal Portfolio Website",
+            "thumbnail": "/images/projects/portfolio.png",
+            "shortDescription": "A responsive, data-driven portfolio built with modern UI principles.",
+            "techStack": [
+                "React",
+                "Tailwind CSS",
+                "daisyUI"
+            ],
+            "liveLink": "",
+            "githubClient": "",
+            "details": {
+                "description": "A single-page portfolio website designed to showcase skills, projects, and experience using JSON-driven content and modular components.",
+                "challenges": [
+                    "Designing clean UI with gradients and blur",
+                    "Maintaining consistency across sections",
+                    "Ensuring smooth performance on all devices"
+                ],
+                "futurePlans": [
+                    "Blog section",
+                    "Animation enhancements",
+                    "Project filtering"
+                ]
+            }
+        }
+    ]
+}
