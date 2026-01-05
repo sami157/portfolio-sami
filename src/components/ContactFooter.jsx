@@ -62,7 +62,7 @@ const ContactFooter = () => {
 
                 {/* Footer Section */}
                 <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-                    <p className="text-sm text-base-content/70">
+                    <p className="text-sm text-center text-base-content/70">
                         © {new Date().getFullYear()} Tanzir Ahmed Sami. All rights reserved.
                     </p>
 
