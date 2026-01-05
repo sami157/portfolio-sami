@@ -66,6 +66,7 @@ const Skills = () => {
                             <Swiper
                                 effect="cards"
                                 grabCursor
+                                loop
                                 modules={[EffectCards]}
                                 className="w-75 md:w-75 h-90 mx-auto"
                             >
