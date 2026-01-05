@@ -3,29 +3,68 @@
         {
             "category": "Frontend",
             "list": [
-                "React",
-                "Tailwind CSS",
-                "daisyUI",
-                "HTML",
-                "CSS",
-                "JavaScript"
+                {
+                    "name": "React",
+                    "icon": "react"
+                },
+                {
+                    "name": "Tailwind CSS",
+                    "icon": "tailwind"
+                },
+                {
+                    "name": "daisyUI",
+                    "icon": "daisyui"
+                },
+                {
+                    "name": "HTML",
+                    "icon": "html5"
+                },
+                {
+                    "name": "CSS",
+                    "icon": "css3"
+                },
+                {
+                    "name": "JavaScript",
+                    "icon": "javascript"
+                }
             ]
         },
         {
             "category": "Backend",
             "list": [
-                "Node.js",
-                "Express",
-                "MongoDB"
+                {
+                    "name": "Node.js",
+                    "icon": "nodejs"
+                },
+                {
+                    "name": "Express",
+                    "icon": "express"
+                },
+                {
+                    "name": "MongoDB",
+                    "icon": "mongodb"
+                }
             ]
         },
         {
             "category": "Tools & Others",
             "list": [
-                "Git",
-                "Postman",
-                "VSCode",
-                "Figma"
+                {
+                    "name": "VSCode",
+                    "icon": "vscode"
+                },
+                {
+                    "name": "Git",
+                    "icon": "git"
+                },
+                {
+                    "name": "Postman",
+                    "icon": "postman"
+                },
+                {
+                    "name": "Figma",
+                    "icon": "figma"
+                }
             ]
         }
     ]

@@ -1,81 +1,108 @@
 {
     "projects": [
         {
-            "id": "coal-yard-management",
-            "name": "Coal Yard Management System",
-            "thumbnail": "/images/projects/coal-yard.png",
-            "shortDescription": "A system to monitor coal movement, consumption, and operational data in real time.",
-            "techStack": [
-                "React",
-                "Node.js",
-                "Express",
-                "MongoDB"
-            ],
-            "liveLink": "",
-            "githubClient": "",
-            "details": {
-                "description": "A complete coal yard management system developed from concept to deployment. The system helps operators track coal flow, maintain records, and monitor daily consumption efficiently.",
-                "challenges": [
-                    "Understanding real-world operational workflows",
-                    "Designing a data model that matches physical coal movement",
-                    "Ensuring reliability for daily operational use"
-                ],
-                "futurePlans": [
-                    "Advanced reporting and analytics",
-                    "Role-based access control",
-                    "Improved visualization dashboards"
-                ]
-            }
-        },
-        {
-            "id": "user-dashboard-app",
-            "name": "User Dashboard Application",
-            "thumbnail": "/images/projects/dashboard.png",
-            "shortDescription": "A responsive dashboard with charts, profile management, and protected routes.",
+            "id": "1",
+            "name": "StudyMate",
+            "thumbnail": "study-mate.png",
+            "shortDescription": "StudyMate is a platform that helps students find compatible study partners based on subject, experience level, and preferred study mode (Online, In-Person, Hybrid).",
             "techStack": [
                 "React",
                 "Tailwind CSS",
-                "React Query"
+                "daisyUI",
+                "Swiper",
+                "Axios",
+                "React Hot Toast",
+                "Express",
+                "MongoDB"
             ],
-            "liveLink": "",
-            "githubClient": "",
+            "liveLink": "https://study-mate-swart.vercel.app/",
+            "githubClient": "https://github.com/sami157/a10-client",
             "details": {
-                "description": "A modern dashboard application featuring authentication, user profiles, and visual data representation using charts.",
+                "description": "A student collaboration platform that connects learners with compatible study partners based on subject, experience level, and study mode preferences, featuring a smart discovery system and request management.",
                 "challenges": [
-                    "State management across components",
-                    "Making charts fully responsive",
-                    "Handling protected routes securely"
+                    "Managing partner request state across multiple components",
+                    "Implementing real-time search and filtering without performance lag",
+                    "Synchronizing theme toggle across all components and persistent storage",
+                    "Handling concurrent partner requests and preventing duplicates",
+                    "Ensuring data consistency between frontend and MongoDB backend"
                 ],
                 "futurePlans": [
-                    "Dark/light theme toggle",
-                    "More advanced analytics",
-                    "Improved accessibility"
+                    "Add real-time chat functionality between matched study partners",
+                    "Implement study session scheduling with calendar integration",
+                    "Create a rating and review system for completed study partnerships",
+                    "Add email notifications for new partner requests and acceptances",
+                    "Build recommendation algorithm based on past successful matches",
+                    "Integrate video call functionality for online study sessions",
+                    "Add study group creation for multiple partners studying together"
                 ]
             }
         },
         {
-            "id": "portfolio-website",
-            "name": "Personal Portfolio Website",
-            "thumbnail": "/images/projects/portfolio.png",
-            "shortDescription": "A responsive, data-driven portfolio built with modern UI principles.",
+            "id": "2",
+            "name": "ContestHub",
+            "thumbnail": "contest-hub.png",
+            "shortDescription": "A full-stack creative contest management platform with role-based access and Stripe payments.",
+            "techStack": [
+                "React",
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "Tailwind CSS",
+                "Stripe",
+                "JWT"
+            ],
+            "liveLink": "https://a11-contesthub.web.app/",
+            "githubClient": "https://github.com/sami157/assignment-11-contesthub-client",
+            "details": {
+                "description": "A production-ready contest management platform enabling users to explore, register, and participate in creative contests through secure payments. Features role-based dashboards for admins, contest creators, and participants with JWT authentication and Stripe integration.",
+                "challenges": [
+                    "Implementing secure role-based authorization across frontend and backend",
+                    "Managing complex payment flow with Stripe and ensuring transaction verification",
+                    "Synchronizing contest approval workflow between creators and admins",
+                    "Handling state management for multi-role dashboards efficiently",
+                    "Ensuring payment validation before confirming contest participation"
+                ],
+                "futurePlans": [
+                    "Add real-time notifications for contest updates and winner announcements",
+                    "Implement leaderboard and ranking system for top participants",
+                    "Create social sharing features for contests and achievements",
+                    "Add multi-currency support for international users",
+                    "Integrate analytics dashboard for contest creators to track performance",
+                    "Build commenting and feedback system for contests",
+                    "Add automated email reminders for contest deadlines",
+                    "Implement portfolio showcase for winners to display their work"
+                ]
+            }
+        },
+        {
+            "id": "3",
+            "name": "Hero Apps",
+            "thumbnail": "hero-apps.png",
+            "shortDescription": "Website to showcase a selection of apps",
             "techStack": [
                 "React",
                 "Tailwind CSS",
                 "daisyUI"
             ],
-            "liveLink": "",
-            "githubClient": "",
+            "liveLink": "https://hero-apps-flax.vercel.app/",
+            "githubClient": "https://github.com/sami157/assignment-8-hero-apps",
             "details": {
-                "description": "A single-page portfolio website designed to showcase skills, projects, and experience using JSON-driven content and modular components.",
+                "description": "Users can view apps with trending ones shown separately. Search functionality is available and users can see details with detailed analysis of ratings.",
                 "challenges": [
-                    "Designing clean UI with gradients and blur",
-                    "Maintaining consistency across sections",
-                    "Ensuring smooth performance on all devices"
+                    "Maintaining real-time trending data accuracy",
+                    "Scaling app performance with growing app catalog",
+                    "Optimizing search with typos and vague queries",
+                    "Managing load times for analytics-heavy pages"
                 ],
                 "futurePlans": [
-                    "Blog section",
-                    "Animation enhancements",
-                    "Project filtering"
+                    "Add personalized app recommendations based on user preferences and history",
+                    "Implement user reviews and comments for community engagement",
+                    "Create comparison tools to view multiple apps side-by-side",
+                    "Add filtering options by category, price range, and ratings",
+                    "Integrate with app stores for direct installation or purchase links",
+                    "Build a watchlist feature so users can track apps they're interested in",
+                    "Add price tracking and alerts for paid apps going on sale",
+                    "Implement advanced analytics like rating trends over time and version comparisons"
                 ]
             }
         }
