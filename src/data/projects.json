@@ -2,6 +2,45 @@
     "projects": [
         {
             "id": "1",
+            "name": "Dining Management ",
+            "thumbnail": "dining-management-frontend-a6.png",
+            "shortDescription": "A role-based meal and finance management frontend for shared dining systems, supporting meal booking, scheduling, templates, deadlines, and monthly operations.",
+            "techStack": [
+                "Next.js 16",
+                "React 19",
+                "TypeScript",
+                "Tailwind CSS 4",
+                "TanStack Query",
+                "Axios",
+                "React Hot Toast",
+                "Lucide React",
+                "React Day Picker",
+                "Firebase Authentication",
+                "REST API"
+            ],
+            "liveLink": "https://dining-management-frontend-a6.vercel.app/",
+            "githubClient": "https://github.com/sami157/dining-management-frontend-a6",
+            "details": {
+                "description": "A full-featured frontend for a shared dining management platform built with Next.js App Router, React, and TypeScript. It supports role-based workflows for members, managers, and admins to manage meals, schedules, templates, deadlines, finance, and monthly operational lifecycle data.",
+                "challenges": [
+                    "Implementing strict role-based access and protected routes across member, manager, and admin areas",
+                    "Designing deadline-aware booking flows with clear UI states for unavailable or expired actions",
+                    "Coordinating schedule generation, repair, and editing workflows for daily and monthly operations",
+                    "Keeping complex dashboard data synchronized using TanStack Query with reliable invalidation strategies",
+                    "Managing timezone-sensitive meal and month logic for Dhaka-based operational cutoffs",
+                    "Building resilient API integration with Axios interceptors for auth headers and normalized error handling"
+                ],
+                "futurePlans": [
+                    "Add richer monthly reporting exports for finance and meal analytics",
+                    "Introduce notification workflows for deadline reminders and schedule updates",
+                    "Extend admin auditing for role changes, account state transitions, and rollback actions",
+                    "Improve advanced filtering and search across members, registrations, and historical records",
+                    "Enhance offline-tolerant UX patterns for unstable network conditions in operational environments"
+                ]
+            }
+        },
+        {
+            "id": "2",
             "name": "StudyMate",
             "thumbnail": "study-mate.png",
             "shortDescription": "StudyMate is a platform that helps students find compatible study partners based on subject, experience level, and preferred study mode (Online, In-Person, Hybrid).",
@@ -38,7 +77,7 @@
             }
         },
         {
-            "id": "2",
+            "id": "3",
             "name": "ContestHub",
             "thumbnail": "contest-hub.png",
             "shortDescription": "A full-stack creative contest management platform with role-based access and Stripe payments.",
@@ -75,7 +114,7 @@
             }
         },
         {
-            "id": "3",
+            "id": "4",
             "name": "Hero Apps",
             "thumbnail": "hero-apps.png",
             "shortDescription": "Website to showcase a selection of apps",
@@ -103,6 +142,46 @@
                     "Build a watchlist feature so users can track apps they're interested in",
                     "Add price tracking and alerts for paid apps going on sale",
                     "Implement advanced analytics like rating trends over time and version comparisons"
+                ]
+            }
+        },
+        {
+            "id": "5",
+            "name": "Skill Bridge",
+            "thumbnail": "skill-bridge.png",
+            "shortDescription": "A role-based student-tutor booking platform where students can browse tutors, book sessions, and manage profiles and bookings.",
+            "techStack": [
+                "Next.js 16 (App Router)",
+                "React 19",
+                "Tailwind CSS 4",
+                "Radix UI",
+                "Lucide Icons",
+                "NextAuth",
+                "JWT",
+                "REST API",
+                "Node.js",
+                "Express.js",
+                "PostgreSQL",
+                "Prisma"
+            ],
+            "liveLink": "https://skill-bridge-one-pi.vercel.app/",
+            "githubClient": "https://github.com/sami157/skill-bridge",
+            "details": {
+                "description": "A full-stack student-tutor booking application with role-based access that lets students discover tutors, book sessions, and manage their profile and booking history. Built with Next.js App Router and a REST client connected to a Node.js/Express backend using PostgreSQL with Prisma.",
+                "challenges": [
+                    "Designing role-based route protection and UI behavior for different user types",
+                    "Managing JWT authentication flow with localStorage token persistence and session handling",
+                    "Synchronizing booking state across tutor listings, booking forms, and dashboard views",
+                    "Handling API integration cleanly with NEXT_PUBLIC_API_URL across environments",
+                    "Ensuring reliable relational data consistency for users, tutors, and bookings in PostgreSQL with Prisma"
+                ],
+                "futurePlans": [
+                    "Add tutor availability calendar and smarter time-slot conflict prevention",
+                    "Implement notifications for booking confirmations, reminders, and cancellations",
+                    "Introduce tutor ratings and reviews after completed sessions",
+                    "Add advanced tutor filtering by subject, price range, and availability",
+                    "Provide admin analytics for booking trends and platform activity",
+                    "Support rescheduling workflows and waitlist management for fully booked tutors"
                 ]
             }
         }

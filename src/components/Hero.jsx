@@ -18,7 +18,7 @@ const Hero = () => {
                             Tanzir Ahmed Sami
                         </h1>
                         <h2 className="text-2xl md:text-3xl font-semibold text-base-content">
-                            MERN Stack Web Developer{" "}
+                            Full-Stack Web Developer{" "}
                         </h2>
                         <span className="text-sm md:text-base-content text-base-content font-normal">
                             Electrical and Automation Engineer

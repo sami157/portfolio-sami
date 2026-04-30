@@ -4,8 +4,16 @@
             "category": "Frontend",
             "list": [
                 {
+                    "name": "Next.js",
+                    "icon": "nextdotjs"
+                },
+                {
                     "name": "React",
                     "icon": "react"
+                },
+                {
+                    "name": "TypeScript",
+                    "icon": "typescript"
                 },
                 {
                     "name": "Tailwind CSS",
@@ -33,6 +41,10 @@
             "category": "Backend",
             "list": [
                 {
+                    "name": "Python",
+                    "icon": "python"
+                },
+                {
                     "name": "Node.js",
                     "icon": "nodejs"
                 },
@@ -41,8 +53,92 @@
                     "icon": "express"
                 },
                 {
+                    "name": "REST APIs",
+                    "icon": "fastapi"
+                }
+            ]
+        },
+        {
+            "category": "Database",
+            "list": [
+                {
                     "name": "MongoDB",
                     "icon": "mongodb"
+                },
+                {
+                    "name": "PostgreSQL",
+                    "icon": "postgresql"
+                },
+                {
+                    "name": "Prisma",
+                    "icon": "prisma"
+                },
+                {
+                    "name": "Supabase",
+                    "icon": "supabase"
+                }
+            ]
+        },
+        {
+            "category": "DevOps",
+            "list": [
+                {
+                    "name": "Docker",
+                    "icon": "docker"
+                },
+                {
+                    "name": "CI/CD",
+                    "icon": "githubactions"
+                }
+            ]
+        },
+        {
+            "category": "AI Agents",
+            "list": [
+                {
+                    "name": "Codex",
+                    "icon": "openai"
+                },
+                {
+                    "name": "GitHub Copilot",
+                    "icon": "githubcopilot"
+                },
+                {
+                    "name": "Claude Code",
+                    "icon": "anthropic"
+                },
+                {
+                    "name": "Gemini CLI",
+                    "icon": "googlegemini"
+                }
+            ]
+        },
+        {
+            "category": "AI/ML",
+            "list": [
+                {
+                    "name": "RAG",
+                    "icon": "semanticweb"
+                },
+                {
+                    "name": "Embeddings",
+                    "icon": "tensorflows"
+                },
+                {
+                    "name": "Vector Search",
+                    "icon": "weaviate"
+                },
+                {
+                    "name": "Prompt Engineering",
+                    "icon": "openai"
+                },
+                {
+                    "name": "LLM Integration",
+                    "icon": "langchain"
+                },
+                {
+                    "name": "Agent Workflows",
+                    "icon": "n8n"
                 }
             ]
         },
