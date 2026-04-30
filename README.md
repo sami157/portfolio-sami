@@ -4,7 +4,7 @@ A personal developer portfolio built with React and Vite to showcase profile inf
 
 ## Live Demo
 
-- [Portfolio Website](https://portfolio-sami-git-main-samis-projects-5699449c.vercel.app/)
+- [Portfolio Website](https://portfolio-sami-seven.vercel.app/)
 
 ## Features
 
