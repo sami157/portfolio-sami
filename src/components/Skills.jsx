@@ -15,6 +15,13 @@ import {
     FaJs,
     FaNodeJs,
     FaGit,
+    FaPython,
+    FaDatabase,
+    FaDocker,
+    FaRobot,
+    FaBrain,
+    FaServer,
+    FaTools,
 } from "react-icons/fa";
 import {
     SiTailwindcss,
@@ -23,6 +30,12 @@ import {
     SiMongodb,
     SiPostman,
     SiFigma,
+    SiNextdotjs,
+    SiTypescript,
+    SiPostgresql,
+    SiPrisma,
+    SiSupabase,
+    SiGithubactions,
 } from "react-icons/si";
 
 import { VscVscode } from "react-icons/vsc";
@@ -34,9 +47,27 @@ const iconMap = {
     javascript: FaJs,
     tailwind: SiTailwindcss,
     daisyui: SiDaisyui,
+    nextdotjs: SiNextdotjs,
+    typescript: SiTypescript,
+    python: FaPython,
     nodejs: FaNodeJs,
     express: SiExpress,
+    fastapi: FaServer,
     mongodb: SiMongodb,
+    postgresql: SiPostgresql,
+    prisma: SiPrisma,
+    supabase: SiSupabase,
+    docker: FaDocker,
+    githubactions: SiGithubactions,
+    openai: FaRobot,
+    githubcopilot: FaRobot,
+    anthropic: FaRobot,
+    googlegemini: FaRobot,
+    semanticweb: FaBrain,
+    tensorflows: FaBrain,
+    weaviate: FaBrain,
+    langchain: FaBrain,
+    n8n: FaTools,
     git: FaGit,
     postman: SiPostman,
     vscode: VscVscode,
@@ -71,7 +102,7 @@ const Skills = () => {
                                 className="w-75 md:w-75 h-90 mx-auto"
                             >
                                 {category.list.map((skill) => {
-                                    const Icon = iconMap[skill.icon];
+                                    const Icon = iconMap[skill.icon] || FaTools;
 
                                     return (
                                         <SwiperSlide className="rounded-2xl drop-shadow-2xl shadow-accent" key={skill.name}>
