@@ -1,16 +1,101 @@
-# React + Vite
+# Portfolio Sami
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal developer portfolio built with React and Vite to showcase profile information, skills, experience, and project work.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Portfolio Website](https://portfolio-sami-git-main-samis-projects-5699449c.vercel.app/)
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Responsive single-page portfolio layout
+- Hero section with social links and resume access
+- About and professional background sections
+- Skills section with categorized tech stack cards
+- Projects section with detailed project metadata from JSON
+- Contact section with direct communication links
+- Smooth animations and interactive UI components
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 19
+- Vite 7
+- Tailwind CSS 4
+- daisyUI
+- Framer Motion
+- Swiper
+- React Icons
+
+## Project Structure
+
+```txt
+src/
+  components/       Reusable UI sections (Hero, About, Skills, Projects, etc.)
+  data/             JSON content sources (profile, projects, skills, experience, contact)
+  assets/           Local static assets
+public/             Public static files
+```
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 20+
+- npm
+
+### Installation
+
+```bash
+npm install
+```
+
+### Run in Development
+
+```bash
+npm run dev
+```
+
+Open `http://localhost:5173`.
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+### Preview Production Build
+
+```bash
+npm run preview
+```
+
+### Lint
+
+```bash
+npm run lint
+```
+
+## Content Management
+
+All portfolio content is data-driven through JSON files in `src/data/`:
+
+- `profile.json` for personal and hero content
+- `skills.json` for categorized skills
+- `projects.json` for project cards and details
+- `experience.json` for education/work timeline
+- `contact.json` for contact links and footer details
+
+## Deployment
+
+This project is configured for Vercel with Vite output:
+
+- Framework: `Vite`
+- Build Command: `npm run build`
+- Output Directory: `dist`
+- Root Directory: project root (`.`), not `dist`
+
+If deploying on Vercel, make sure Root Directory is not set to `dist`.
+
+## License
+
+This project is currently unlicensed. Add a license if you want to make reuse terms explicit.
